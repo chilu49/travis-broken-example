@@ -4,7 +4,5 @@ matrix:
       dist: trusty
       language: php
 php:
-  - 5.5
-  - 5.4
-  - hhvm
+   - hhvm
 script: phpunit Test.php
